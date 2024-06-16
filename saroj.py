@@ -1,4 +1,4 @@
-ghr#### ORIGINAL MAKER IS SAROJ DON ####
+#### ORIGINAL MAKER IS SAROJ DON ####
 
 #××××××××××IMPORT MODULES××××××××××#
 import os,zlib
