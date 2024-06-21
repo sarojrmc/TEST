@@ -86,7 +86,7 @@ except: pass
 def randBuildLSB():
     vchrome = str(random.randint(100,925))+".0.0."+str(random.randint(1,8))+"."+str(random.randint(40,150))
     VAPP = random.randint(410000000,499999999)
-    END = '[FBAN/Orca-Android;FBAV/196.0.0.83;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/629519766;FBCR/TURKCELL;FBMF/samsung;FBBD/samsung;FBDV/SM-A037M;FBSV/9.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=1280,height=720};FB_FW/1;FBRV/285125359]'
+    END = '[FBAN/FB4A;FBAV/345.0.0.8.140;FBBV/717483761;FBDM/{density=3.2,width=1080,height=1431};FBLC/hi_IN;FBRV/872699798;FBCR/AT&amp;amp-T;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M2101K7BG;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]'
     ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     return ua
 
@@ -274,7 +274,7 @@ class main_crack():
 "fb_api_req_friendly_name": "authenticate",
 "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
 "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': '[FBAN/Orca-Android;FBAV/196.0.0.83;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/629519766;FBCR/TURKCELL;FBMF/samsung;FBBD/samsung;FBDV/SM-A037M;FBSV/9.1.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.5,width=1280,height=720};FB_FW/1;FBRV/285125359]',
+                headers = {'User-Agent': '[FBAN/FB4A;FBAV/345.0.0.8.140;FBBV/717483761;FBDM/{density=3.2,width=1080,height=1431};FBLC/hi_IN;FBRV/872699798;FBCR/AT&amp;amp-T;FBMF/Xiaomi;FBBD/Redmi;FBPN/com.facebook.katana;FBDV/M2101K7BG;FBSV/9;FBOP/1;FBCA/arm64-v8a:;]',
 'Content-Type': 'application/x-www-form-urlencoded',
 'Host': 'graph.facebook.com',
 'X-FB-Net-HNI': str(random.randint(20000, 40000)),
